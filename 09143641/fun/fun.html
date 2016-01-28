@@ -1,0 +1,44 @@
+﻿<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>what's life</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link href='css/styles.css' rel='stylesheet'>
+	<script src='js/intense.js'></script>
+	<link href='http://fonts.useso.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>世界这么大，待我慢慢来看 <span>such is life</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="../home/home.html" title="home" target="_blank"><span> 回到主页</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="../home/home.html" title="回到主页" target="_blank"><span> 回到主页</span></a>
+			</div>
+		</header>
+		<h3>点击下面的缩略图查看全屏图片。</h3>
+		<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image first" data-image="http://i.imgur.com/67wIfju.jpg" data-title="不再向往热闹繁华的城市" data-caption="拥有宁静，便拥有一切。"></div>
+    		<div class="demo-image second" data-image="http://i.imgur.com/zpUixwS.jpg" data-title="悬崖" data-caption="任何事情，敢不敢，就在一瞬间。"></div>
+    		<div class="demo-image third"  data-title="他们有思想吗" data-caption="子非羊焉知羊之乐，我不能否认他们能思考，未知。"></div>
+		
+    		<div class="demo-image forth" data-image="http://" data-title="王石" data-caption="他们本就有所不同，硬气如石，品格如玉。"></div>
+		
+    	</section>
+		
+	</div>
+	
+	<script>
+		var elements = document.querySelectorAll( '.demo-image' );
+		Intense( elements );
+	</script>
+</body>
+</html>
